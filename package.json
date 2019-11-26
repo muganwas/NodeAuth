@@ -1,0 +1,26 @@
+{
+  "name": "simple-login",
+  "version": "1.0.0",
+  "description": "Simple login with encryption",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "node.js",
+    "encryption",
+    "login"
+  ],
+  "author": "steven muganwa",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
